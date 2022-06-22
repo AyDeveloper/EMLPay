@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EMLPay</title>
+    <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body>
+         <!-- header for logo and avatar -->
+    <header class="mainHeader">
+        <!-- headerCenter -->
+        <div class="headerCenter">
+            <!-- logo -->
+            <div class="logo">
+                <h3>EMLPay</h3>
+            </div>
+
+            <div class="connect">
+                <button>Connect Wallet</button>
+                <div class="balDisp"></div>
+                <div class="tokenBal"></div>
+            </div>
+            <!-- avatar -->
+            <!-- end of avatar -->
+        </div>
+    </header>   
+    <!-- end of header -->
+
+    <!-- Main -->
+    <main class="mainContainer">
+        <div class="mainContainerCenter">
+            <!-- dashboard -->
+            <section class="leftSide">
+               <div class="content">
+                   <h3>Transfer your tokens globally</h3>
+                   <p>With PayTokens your KLAY balance, <br> token balance are all displyed in a place. <br>
+                     Feeling generous? You can also transfer your tokens</p>
+               </div>
+
+               <div class="steps">
+                    <div class="step1">
+                        <span>1</span>
+                        <h3>Connect Wallet</h3>
+                    </div>
+
+                    <div class="step1">
+                        <span>2</span>
+                        <h3>Enter Beneficiary Address</h3>
+                    </div>
+
+                    <div class="step1">
+                        <span>3</span>
+                        <h3>Enter Amount</h3>
+                    </div>
+               </div>
+
+               <div class="submission">
+
+                   <form class="submisionForm">
+                       <div>
+                           <input type="text" name="addr" id="addr" placeholder="Benificiary Address" required>
+                       </div>
+
+                       <div>
+                           <input type="number" name="amount" id="amount" placeholder="Tokens Amount" required>
+                       </div>
+                       <div class="submit">
+                           <input type="submit" value="Transfer">
+                       </div>
+                   </form>
+               </div>
+            </section>
+            <!-- end of dashboard -->
+
+            <!-- biodata  container -->
+            <section class="rightSide">
+                <div class="projectContainer">
+                    <h3>Transfer History</h3>
+                    <div class="projectContainerCenter">
+                      
+                    </div>
+                </div>
+            </section>
+            <!-- end of Biodata container  -->
+        </div>
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer class="mainFooter">
+        <!-- footer center -->
+        <!-- end of footer center -->
+    </footer>
+    <!-- end of footer -->
+
+   
+
+    <!-- script -->
+    <script src="bundle.js"></script>
+   <!-- end of script -->
+</body>
+</html>
